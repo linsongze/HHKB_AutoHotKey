@@ -64,6 +64,9 @@ Shift & Enter::Send, {End}{Enter}
 LAlt & Enter::Send, {HOME}{SHIFTDOWN}{END}{SHIFTUP}{CTRLDOWN}c{CTRLUP}{END}{Enter}{CTRLDOWN}v{CTRLUP}
 RAlt & Enter::Send, {Home}{Enter}
 ;+#\::send,{ShiftDown}{Insert}{ShiftUp}
+#u::Send,{CTRLDOWN}{ALTDOWN}{u}{CTRLUP}{ALTUP}
+#!u::send ^!u
+;#!h::send ^!h
 
 ;`::Del
 Shift & `::Send,~
