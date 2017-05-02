@@ -4,6 +4,7 @@
 
 ; Enable vim mode for following applications
 GroupAdd VimGroup, ahk_exe notepad.exe ; NotePad
+GroupAdd VimGroup, ahk_exe notepad++.exe ; NotePad
 GroupAdd VimGroup, ahk_exe wordpad.exe ; WordPad
 GroupAdd VimGroup, ahk_exe TeraPad.exe ; TeraPad
 GroupAdd VimGroup, ahk_exe exploler.exe

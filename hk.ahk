@@ -60,13 +60,17 @@ RAlt & =::Send, {F12}
 #y::Send,^y
 #r::send, #r
 #w::Send, ^w
-Shift & Enter::Send, {End}{Enter}
-LAlt & Enter::Send, {HOME}{SHIFTDOWN}{END}{SHIFTUP}{CTRLDOWN}c{CTRLUP}{END}{Enter}{CTRLDOWN}v{CTRLUP}
++Enter::Send, {End}{Enter}
+#Enter::Send, {HOME}{SHIFTDOWN}{END}{SHIFTUP}{CTRLDOWN}c{CTRLUP}{END}{Enter}{CTRLDOWN}v{CTRLUP}
 RAlt & Enter::Send, {Home}{Enter}
 !space::Send, {HOME}{SHIFTDOWN}{END}{SHIFTUP}
-;+#\::send,{ShiftDown}{Insert}{ShiftUp}
 #u::Send,{CTRLDOWN}{ALTDOWN}{u}{CTRLUP}{ALTUP}
 #!u::send ^!u
+
+
+
+
+
 
 
 ;`::Del
@@ -92,6 +96,7 @@ LAlt & k::Send {Up}
 
 #n::Run, "NotePad++"
 
-Shift & c::Run, "cmd"
+!+c::Run, "cmd"
 
 +space::Send, {space}{space}{space}{space}
++backspace::Send, +{delete}
