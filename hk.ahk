@@ -66,8 +66,7 @@ RAlt & Enter::Send, {Home}{Enter}
 !space::Send, {HOME}{SHIFTDOWN}{END}{SHIFTUP}
 #u::Send,{CTRLDOWN}{ALTDOWN}{u}{CTRLUP}{ALTUP}
 #!u::send ^!u
-
-
+!y::Send,^z
 
 
 
